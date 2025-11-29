@@ -1,0 +1,88 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Ignore compiled bytecode
+*.py[cod]
+
+# Ignore Python cache folders
+.pytest_cache/
+
+# ---------------------------
+# Virtual Environment
+# ---------------------------
+venv/
+ENV/
+env/
+.venv/
+
+# ---------------------------
+# Project Data
+# ---------------------------
+# Raw datasets
+archive/
+data/*.csv
+data/*.pkl
+data/*.pkl
+data/*.npy
+
+# Do not commit datasets unless needed
+*.csv
+
+# ---------------------------
+# Models
+# ---------------------------
+models/*.pkl
+models/*.joblib
+
+# Keep training scripts but ignore saved models
+!models/*.py
+
+# ---------------------------
+# Results / Visualizations
+# ---------------------------
+results/metrics/
+results/visualizations/
+results/*.pkl
+results/*.json
+results/*.csv
+results/*.png
+
+# Keep scripts for generating visualizations
+!results/*.py
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
+
+# ---------------------------
+# OS / Editor Files
+# ---------------------------
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# ---------------------------
+# Environment / Secrets
+# ---------------------------
+*.env
+.env.*
